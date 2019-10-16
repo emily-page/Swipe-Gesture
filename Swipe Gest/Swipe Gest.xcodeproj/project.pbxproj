@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A1A93F205198C600101907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A1A93E205198C600101907 /* AppDelegate.swift */; };
+		21A1A941205198C600101907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A1A940205198C600101907 /* ViewController.swift */; };
+		21A1A944205198C600101907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A1A942205198C600101907 /* Main.storyboard */; };
+		21A1A947205198C600101907 /* Koala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21A1A945205198C600101907 /* Koala.xcdatamodeld */; };
+		21A1A949205198C600101907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A1A948205198C600101907 /* Assets.xcassets */; };
+		21A1A94C205198C600101907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A1A94A205198C600101907 /* LaunchScreen.storyboard */; };
+		21A1A957205198C600101907 /* KoalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A1A956205198C600101907 /* KoalaTests.swift */; };
+		21A1A962205198C600101907 /* KoalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A1A961205198C600101907 /* KoalaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A1A953205198C600101907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A1A933205198C600101907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A1A93A205198C600101907;
+			remoteInfo = Koala;
+		};
+		21A1A95E205198C600101907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A1A933205198C600101907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A1A93A205198C600101907;
+			remoteInfo = Koala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21A1A93B205198C600101907 /* Koala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A1A93E205198C600101907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21A1A940205198C600101907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21A1A943205198C600101907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21A1A946205198C600101907 /* Koala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Koala.xcdatamodel; sourceTree = "<group>"; };
+		21A1A948205198C600101907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21A1A94B205198C600101907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21A1A94D205198C600101907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A1A952205198C600101907 /* KoalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A1A956205198C600101907 /* KoalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaTests.swift; sourceTree = "<group>"; };
+		21A1A958205198C600101907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A1A95D205198C600101907 /* KoalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A1A961205198C600101907 /* KoalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaUITests.swift; sourceTree = "<group>"; };
+		21A1A963205198C600101907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A1A938205198C600101907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A1A94F205198C600101907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A1A95A205198C600101907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A1A932205198C600101907 = {
+			isa = PBXGroup;
+			children = (
+				21A1A93D205198C600101907 /* Koala */,
+				21A1A955205198C600101907 /* KoalaTests */,
+				21A1A960205198C600101907 /* KoalaUITests */,
+				21A1A93C205198C600101907 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21A1A93C205198C600101907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A1A93B205198C600101907 /* Koala.app */,
+				21A1A952205198C600101907 /* KoalaTests.xctest */,
+				21A1A95D205198C600101907 /* KoalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21A1A93D205198C600101907 /* Koala */ = {
+			isa = PBXGroup;
+			children = (
+				21A1A93E205198C600101907 /* AppDelegate.swift */,
+				21A1A940205198C600101907 /* ViewController.swift */,
+				21A1A942205198C600101907 /* Main.storyboard */,
+				21A1A948205198C600101907 /* Assets.xcassets */,
+				21A1A94A205198C600101907 /* LaunchScreen.storyboard */,
+				21A1A94D205198C600101907 /* Info.plist */,
+				21A1A945205198C600101907 /* Koala.xcdatamodeld */,
+			);
+			path = Koala;
+			sourceTree = "<group>";
+		};
+		21A1A955205198C600101907 /* KoalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				21A1A956205198C600101907 /* KoalaTests.swift */,
+				21A1A958205198C600101907 /* Info.plist */,
+			);
+			path = KoalaTests;
+			sourceTree = "<group>";
+		};
+		21A1A960205198C600101907 /* KoalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21A1A961205198C600101907 /* KoalaUITests.swift */,
+				21A1A963205198C600101907 /* Info.plist */,
+			);
+			path = KoalaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21A1A93A205198C600101907 /* Koala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A1A966205198C600101907 /* Build configuration list for PBXNativeTarget "Koala" */;
+			buildPhases = (
+				21A1A937205198C600101907 /* Sources */,
+				21A1A938205198C600101907 /* Frameworks */,
+				21A1A939205198C600101907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koala;
+			productName = Koala;
+			productReference = 21A1A93B205198C600101907 /* Koala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21A1A951205198C600101907 /* KoalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A1A969205198C600101907 /* Build configuration list for PBXNativeTarget "KoalaTests" */;
+			buildPhases = (
+				21A1A94E205198C600101907 /* Sources */,
+				21A1A94F205198C600101907 /* Frameworks */,
+				21A1A950205198C600101907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A1A954205198C600101907 /* PBXTargetDependency */,
+			);
+			name = KoalaTests;
+			productName = KoalaTests;
+			productReference = 21A1A952205198C600101907 /* KoalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21A1A95C205198C600101907 /* KoalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A1A96C205198C600101907 /* Build configuration list for PBXNativeTarget "KoalaUITests" */;
+			buildPhases = (
+				21A1A959205198C600101907 /* Sources */,
+				21A1A95A205198C600101907 /* Frameworks */,
+				21A1A95B205198C600101907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A1A95F205198C600101907 /* PBXTargetDependency */,
+			);
+			name = KoalaUITests;
+			productName = KoalaUITests;
+			productReference = 21A1A95D205198C600101907 /* KoalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21A1A933205198C600101907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = apcs2;
+				TargetAttributes = {
+					21A1A93A205198C600101907 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					21A1A951205198C600101907 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21A1A93A205198C600101907;
+					};
+					21A1A95C205198C600101907 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21A1A93A205198C600101907;
+					};
+				};
+			};
+			buildConfigurationList = 21A1A936205198C600101907 /* Build configuration list for PBXProject "Koala" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21A1A932205198C600101907;
+			productRefGroup = 21A1A93C205198C600101907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21A1A93A205198C600101907 /* Koala */,
+				21A1A951205198C600101907 /* KoalaTests */,
+				21A1A95C205198C600101907 /* KoalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A1A939205198C600101907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A1A94C205198C600101907 /* LaunchScreen.storyboard in Resources */,
+				21A1A949205198C600101907 /* Assets.xcassets in Resources */,
+				21A1A944205198C600101907 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A1A950205198C600101907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A1A95B205198C600101907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A1A937205198C600101907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A1A947205198C600101907 /* Koala.xcdatamodeld in Sources */,
+				21A1A941205198C600101907 /* ViewController.swift in Sources */,
+				21A1A93F205198C600101907 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A1A94E205198C600101907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A1A957205198C600101907 /* KoalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A1A959205198C600101907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A1A962205198C600101907 /* KoalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A1A954205198C600101907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A1A93A205198C600101907 /* Koala */;
+			targetProxy = 21A1A953205198C600101907 /* PBXContainerItemProxy */;
+		};
+		21A1A95F205198C600101907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A1A93A205198C600101907 /* Koala */;
+			targetProxy = 21A1A95E205198C600101907 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21A1A942205198C600101907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A1A943205198C600101907 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21A1A94A205198C600101907 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A1A94B205198C600101907 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21A1A964205198C600101907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21A1A965205198C600101907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21A1A967205198C600101907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Koala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "phs.Swipe-gest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21A1A968205198C600101907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Koala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "phs.Swipe-gest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21A1A96A205198C600101907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.KoalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koala.app/Koala";
+			};
+			name = Debug;
+		};
+		21A1A96B205198C600101907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.KoalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koala.app/Koala";
+			};
+			name = Release;
+		};
+		21A1A96D205198C600101907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.KoalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Koala;
+			};
+			name = Debug;
+		};
+		21A1A96E205198C600101907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KoalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.KoalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Koala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A1A936205198C600101907 /* Build configuration list for PBXProject "Koala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A1A964205198C600101907 /* Debug */,
+				21A1A965205198C600101907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A1A966205198C600101907 /* Build configuration list for PBXNativeTarget "Koala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A1A967205198C600101907 /* Debug */,
+				21A1A968205198C600101907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A1A969205198C600101907 /* Build configuration list for PBXNativeTarget "KoalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A1A96A205198C600101907 /* Debug */,
+				21A1A96B205198C600101907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A1A96C205198C600101907 /* Build configuration list for PBXNativeTarget "KoalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A1A96D205198C600101907 /* Debug */,
+				21A1A96E205198C600101907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21A1A945205198C600101907 /* Koala.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21A1A946205198C600101907 /* Koala.xcdatamodel */,
+			);
+			currentVersion = 21A1A946205198C600101907 /* Koala.xcdatamodel */;
+			path = Koala.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21A1A933205198C600101907 /* Project object */;
+}
